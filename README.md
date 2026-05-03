@@ -1,3 +1,1 @@
-# Solidity Playground\nSmart contracts experiments
-## Contracts overview
-## update architecture
+# Solidity Playground\n\nExperiments on smart contracts
