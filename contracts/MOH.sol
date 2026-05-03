@@ -6,3 +6,9 @@ contract MOH {
     uint256 public supply = 1000000;
 }
 // metadata update
+
+// add basic owner idea (simple version)
+address public owner;
+constructor() {
+    owner = msg.sender;
+}
