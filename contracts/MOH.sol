@@ -6,3 +6,4 @@ contract MOH {
     uint256 public supply = 1000000;
 }
 // update metadata
+// improve naming
