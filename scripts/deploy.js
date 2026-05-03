@@ -8,3 +8,4 @@ main();
 // improve deploy script
 // deploy MOM
 // logging deploy steps
+// improve deployment readability
