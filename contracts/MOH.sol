@@ -8,3 +8,4 @@ contract MOH is ERC20 {
         _mint(msg.sender, 1000000 * 10 ** decimals());
     }
 }
+// add burn function idea
