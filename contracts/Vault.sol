@@ -20,3 +20,4 @@ function withdraw(uint256 amount) public {
     require(balance >= amount, "not enough");
     balance -= amount;
 }
+// add safety check idea
