@@ -17,3 +17,9 @@ function mint(address to, uint256 amount) public {
     balance[to] += amount;
     emit Mint(to, amount);
 }
+
+function transfer(address to, uint256 amount) public {
+    require(balance[msg.sender] >= amount, "not enough");
+    balance[msg.sender] -= amount;
+    balance[to] += amount;
+}
