@@ -17,3 +17,5 @@ function transfer(address to, uint256 amount) public {
     balance[to] += amount;
 }
 // improved readability
+
+event Transfer(address indexed from, address indexed to, uint256 amount);
