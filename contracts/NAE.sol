@@ -23,3 +23,4 @@ function transfer(address to, uint256 amount) public {
     balance[msg.sender] -= amount;
     balance[to] += amount;
 }
+// prevent edge cases
