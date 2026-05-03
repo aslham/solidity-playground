@@ -1,0 +1,25 @@
+{
+  "name": "solidity-playground",
+  "version": "1.0.0",
+  "description": "- MOH Token\\n- NAE Token\\n- Vault System // project refactor note // prepare for modular architecture - Tokens (MOH / NAE)\\n- Vault\\n- Tests",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslham/solidity-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aslham/solidity-playground/issues"
+  },
+  "homepage": "https://github.com/aslham/solidity-playground#readme"
+}
