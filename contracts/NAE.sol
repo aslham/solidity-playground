@@ -8,3 +8,5 @@ contract NAE {
 }
 // improved readability
 // refactor cleanup pass
+
+event Mint(address indexed to, uint256 amount);
