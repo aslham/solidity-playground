@@ -21,3 +21,4 @@ function withdraw(uint256 amount) public {
     balance -= amount;
 }
 // add safety check idea
+// add withdraw event idea
