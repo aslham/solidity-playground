@@ -29,3 +29,9 @@ modifier safe(uint256 amount) {
 }
 
 event Withdraw(uint256 amount);
+
+function withdraw(uint256 amount) public {
+    require(balance >= amount, "not enough");
+    balance -= amount;
+    emit Withdraw(amount);
+}
