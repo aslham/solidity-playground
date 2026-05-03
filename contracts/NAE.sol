@@ -6,3 +6,4 @@ contract NAE {
     string public symbol = "NAE";
     uint256 public totalSupply = 500000;
 }
+// improved readability
