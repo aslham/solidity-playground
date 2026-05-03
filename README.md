@@ -9,3 +9,4 @@ update docs
 update
 ## Project reached 100 commits milestone
 minor improvement
+## Clean project structure finalized
