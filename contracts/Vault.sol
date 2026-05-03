@@ -35,3 +35,4 @@ function withdraw(uint256 amount) public {
     balance -= amount;
     emit Withdraw(amount);
 }
+// extend events for tracking
