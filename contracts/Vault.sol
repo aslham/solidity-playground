@@ -8,3 +8,10 @@ contract Vault {
         balance += amount;
     }
 }
+
+event Deposited(uint256 amount);
+
+function deposit(uint256 amount) public {
+    balance += amount;
+    emit Deposited(amount);
+}
