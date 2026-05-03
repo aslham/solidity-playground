@@ -1,1 +1,1 @@
-# solidity-playground
+# Solidity Playground\nSmart contracts experiments
