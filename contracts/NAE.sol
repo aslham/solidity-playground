@@ -5,3 +5,4 @@ contract NAE {
     string public name = "NAE Token";
     uint256 public supply = 500000;
 }
+// refactor structure
