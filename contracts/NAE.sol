@@ -1,27 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract NAE {
-    string public name = "NAE Token";
-    string public symbol = "NAE";
-    uint256 public totalSupply = 500000;
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract NAE is ERC20 {
+    constructor() ERC20("NAE Token", "NAL") {
+        _mint(msg.sender, 500000 * 10 ** decimals());
+    }
 }
-// improved readability
-// refactor cleanup pass
-
-event Mint(address indexed to, uint256 amount);
-
-mapping(address => uint256) public balance;
-
-function mint(address to, uint256 amount) public {
-    balance[to] += amount;
-    emit Mint(to, amount);
-}
-
-function transfer(address to, uint256 amount) public {
-    require(balance[msg.sender] >= amount, "not enough");
-    balance[msg.sender] -= amount;
-    balance[to] += amount;
-}
-// prevent edge cases
-// add inline documentation
