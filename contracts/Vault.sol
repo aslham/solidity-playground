@@ -27,3 +27,5 @@ modifier safe(uint256 amount) {
     require(balance >= amount, "insufficient");
     _;
 }
+
+event Withdraw(uint256 amount);
