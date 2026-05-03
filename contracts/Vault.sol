@@ -15,3 +15,8 @@ function deposit(uint256 amount) public {
     balance += amount;
     emit Deposited(amount);
 }
+
+function withdraw(uint256 amount) public {
+    require(balance >= amount, "not enough");
+    balance -= amount;
+}
