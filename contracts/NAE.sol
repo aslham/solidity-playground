@@ -7,3 +7,4 @@ contract NAE {
     uint256 public totalSupply = 500000;
 }
 // improved readability
+// refactor cleanup pass
