@@ -6,3 +6,4 @@ contract NAE {
     uint256 public supply = 500000;
 }
 // improve structure
+// add comment
