@@ -3,13 +3,6 @@ pragma solidity ^0.8.20;
 
 contract NAE {
     string public name = "NAE Token";
-    uint256 public supply = 500000;
+    string public symbol = "NAE";
+    uint256 public totalSupply = 500000;
 }
-// refactor structure
-
-// add owner concept
-address public owner;
-constructor() {
-    owner = msg.sender;
-}
-// cleanup formatting
