@@ -6,3 +6,9 @@ contract NAE {
     uint256 public supply = 500000;
 }
 // refactor structure
+
+// add owner concept
+address public owner;
+constructor() {
+    owner = msg.sender;
+}
