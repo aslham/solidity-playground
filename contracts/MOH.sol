@@ -5,6 +5,3 @@ contract MOH {
     string public name = "MOH Token";
     uint256 public supply = 1000000;
 }
-// update metadata
-// improve naming
-// add metadata
