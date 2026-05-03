@@ -7,3 +7,4 @@ async function main() {
 main();
 // improve deploy script
 // deploy MOM
+// logging deploy steps
