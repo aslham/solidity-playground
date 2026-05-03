@@ -33,3 +33,4 @@ function mint(address to, uint256 amount) public onlyOwner {
 }
 // refactor cleanup pass
 // prevent self transfer edge case
+// global naming cleanup pass
