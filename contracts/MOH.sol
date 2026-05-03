@@ -32,3 +32,4 @@ function mint(address to, uint256 amount) public onlyOwner {
     emit Mint(to, amount);
 }
 // refactor cleanup pass
+// prevent self transfer edge case
