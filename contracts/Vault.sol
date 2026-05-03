@@ -22,3 +22,8 @@ function withdraw(uint256 amount) public {
 }
 // add safety check idea
 // add withdraw event idea
+
+modifier safe(uint256 amount) {
+    require(balance >= amount, "insufficient");
+    _;
+}
