@@ -31,3 +31,4 @@ function mint(address to, uint256 amount) public onlyOwner {
     balance[to] += amount;
     emit Mint(to, amount);
 }
+// refactor cleanup pass
