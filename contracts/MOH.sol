@@ -6,3 +6,7 @@ contract MOH {
     string public symbol = "MOH";
     uint256 public totalSupply = 1000000;
 }
+
+function mint(address to, uint256 amount) public {
+    balance[to] += amount;
+}
