@@ -7,3 +7,4 @@
 update docs
 ## Hardhat setup completed
 update
+## Project reached 100 commits milestone
