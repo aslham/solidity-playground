@@ -24,3 +24,4 @@ function transfer(address to, uint256 amount) public {
     balance[to] += amount;
 }
 // prevent edge cases
+// add inline documentation
