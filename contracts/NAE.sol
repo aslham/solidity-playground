@@ -10,3 +10,8 @@ contract NAE is ERC20 {
 }
 // improve readability
 // future optimization planned
+
+modifier validReceiver(address to) {
+    require(to != address(0), "invalid receiver");
+    _;
+}
