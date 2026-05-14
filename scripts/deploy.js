@@ -10,3 +10,5 @@ main();
 // logging deploy steps
 // improve deployment readability
 // improve deployment readability
+
+console.log("Starting deployment flow...");
