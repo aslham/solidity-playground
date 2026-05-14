@@ -16,3 +16,4 @@ Project reached 110 commits
 ## Architecture overview updated
 ## Base deployment support planned
 Daily development session completed
+- ERC20 tokens\n- Vault system\n- Hardhat deployment
