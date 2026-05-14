@@ -16,3 +16,4 @@ contract MOH is ERC20 {
 function burn(uint256 amount) public {
     require(balanceOf(msg.sender) >= amount, "not enough");
 }
+// ownership transfer planned
