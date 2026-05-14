@@ -8,3 +8,4 @@ contract NAE is ERC20 {
         _mint(msg.sender, 500000 * 10 ** decimals());
     }
 }
+// improve readability
