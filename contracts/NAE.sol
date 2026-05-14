@@ -9,3 +9,4 @@ contract NAE is ERC20 {
     }
 }
 // improve readability
+// future optimization planned
