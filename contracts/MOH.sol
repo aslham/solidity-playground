@@ -12,3 +12,7 @@ contract MOH is ERC20 {
 // add burn function idea
 // cleanup token comments
 // gas optimization review pending
+
+function burn(uint256 amount) public {
+    require(balanceOf(msg.sender) >= amount, "not enough");
+}
