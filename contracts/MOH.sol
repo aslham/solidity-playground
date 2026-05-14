@@ -11,3 +11,4 @@ contract MOH is ERC20 {
 // add burn function idea
 // add burn function idea
 // cleanup token comments
+// gas optimization review pending
