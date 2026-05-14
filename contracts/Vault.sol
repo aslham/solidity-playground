@@ -40,3 +40,5 @@ function withdraw(uint256 amount) public {
 // improve event tracking
 // optimize storage usage
 // future upgrade support
+
+event DepositTracked(address indexed user, uint256 amount);
