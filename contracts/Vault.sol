@@ -39,3 +39,4 @@ function withdraw(uint256 amount) public {
 // improve readability Vault
 // improve event tracking
 // optimize storage usage
+// future upgrade support
